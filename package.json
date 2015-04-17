@@ -1,0 +1,17 @@
+{
+  "name": "rabbitpubsub",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "amqp": "*",
+    "connect-redis": "^1.4.7",
+    "ejs": "*",
+    "express": "3.x",
+    "redis": "*",
+    "session.socket.io": "*",
+    "socket.io": "*"
+  }
+}
